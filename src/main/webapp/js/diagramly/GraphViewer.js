@@ -1175,7 +1175,6 @@ GraphViewer.prototype.addToolbar = function()
 		mxUtils.setOpacity(filename, 70);
 		
 		toolbar.appendChild(filename);
-		this.filename = filename;
 	}
 	
 	this.minToolbarWidth = buttonCount * 34;
@@ -1645,23 +1644,6 @@ GraphViewer.prototype.showLocalLightbox = function()
 	}), 0);
 
 	return ui;
-};
-
-GraphViewer.prototype.updateTitle = function(title)
-{
-	title = title || '';
-	
-	if (this.showTitleAsTooltip && this.graph != null && this.graph.container != null)
-	{
-		this.graph.container.setAttribute('title', title);
-    }
-	
-	if (this.filename != null)
-	{
-		this.filename.innerHTML = '';
-		mxUtils.write(this.filename, title);
-		this.filename.setAttribute('title', title);
-	}
 };
 
 /**

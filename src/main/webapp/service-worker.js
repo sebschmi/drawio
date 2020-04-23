@@ -6,11 +6,11 @@ if (workbox)
 	workbox.precaching.precacheAndRoute([
   {
     "url": "js/app.min.js",
-    "revision": "0a8a721148ce3e53a4437cb149dbe8da"
+    "revision": "dc34a72a738efefe1ea171f99d996b50"
   },
   {
     "url": "js/extensions.min.js",
-    "revision": "98655f6a208f911f78f5cb3611e7ca31"
+    "revision": "1508d25f049980ca928fe2596d422ba0"
   },
   {
     "url": "js/stencils.min.js",
@@ -22,7 +22,7 @@ if (workbox)
   },
   {
     "url": "index.html",
-    "revision": "ecd9225c372feb9758d1f276ef6f0ab8"
+    "revision": "ef6e260760a1fa3ca029dbbc0fb6231a"
   },
   {
     "url": "open.html",
@@ -30,7 +30,7 @@ if (workbox)
   },
   {
     "url": "app.html",
-    "revision": "e28e1516e715420680ab6f3bc3fe2288"
+    "revision": "d3b6efffecb556234c73284cb9922806"
   },
   {
     "url": "styles/grapheditor.css",
@@ -86,7 +86,7 @@ if (workbox)
   },
   {
     "url": "resources/dia_uk.txt",
-    "revision": "4bb396c915aafaa941e5367c59e50a94"
+    "revision": "9a9f8133ff3d7a194b97526b2859c2ef"
   },
   {
     "url": "resources/dia_bg.txt",
@@ -238,7 +238,7 @@ if (workbox)
   },
   {
     "url": "resources/dia_tr.txt",
-    "revision": "0764d82abf5b90044c7df062d36b90ce"
+    "revision": "a3f5fef73aab61db4f2a5cedcf5028db"
   },
   {
     "url": "resources/dia_te.txt",
@@ -246,7 +246,7 @@ if (workbox)
   },
   {
     "url": "resources/dia_lt.txt",
-    "revision": "039cd731db8d574ebb94688ec4ce9174"
+    "revision": "9e0e545f83cac1912e6c300e40c72b3b"
   },
   {
     "url": "resources/dia_lv.txt",
@@ -262,7 +262,7 @@ if (workbox)
   },
   {
     "url": "resources/dia_nl.txt",
-    "revision": "9f286466dceb97c0eeecce0daab35c50"
+    "revision": "05528f9d16f3221cb7466b43221c4b6e"
   },
   {
     "url": "resources/dia_fil.txt",
@@ -270,7 +270,7 @@ if (workbox)
   },
   {
     "url": "resources/dia_zh.txt",
-    "revision": "bf9d6b66e0cb4fc1b250bae2c6d33c3d"
+    "revision": "18aef1ef4e553a3d01ffa627f67827f4"
   },
   {
     "url": "resources/dia_bn.txt",

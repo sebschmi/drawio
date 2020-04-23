@@ -28,16 +28,18 @@ async function handleRequest(request)
 		domain = params.get('domain');
 	}
 	
-	let email = params.get('email');
+//	let email = params.get('email');
 //	let locale = params.get('lc');
 //	let displayName = params.get('ds');
 	
-	if (email != null)
-	{
-		let msg = encodeURIComponent(('license:GWE:' + email));
-		let url = "https://log.draw.io/" + msg;
-		fetch(url);
-	}
+	//TODO Add logging if needed
+//	if (email != null)
+//	{
+//		String msg = "GWE:" + email;
+//		msg += (displayName == null) ? "" : ",NAME:" + displayName;
+//		msg += (locale == null) ? "" : ",LOCALE:" + locale;
+//		log.log(Level.CONFIG, msg);
+//	}
 	
 	if (domain != null)
 	{

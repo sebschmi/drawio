@@ -872,12 +872,7 @@ DrawioFile.prototype.isCompressed = function()
 	}
 };
 
-/**
- * Translates this point by the given vector.
- * 
- * @param {number} dx X-coordinate of the translation.
- * @param {number} dy Y-coordinate of the translation.
- */
+
 DrawioFile.prototype.decompress = function()
 {
 	this.updateFileData(false);
@@ -890,12 +885,6 @@ DrawioFile.prototype.decompress = function()
 	this.fileChanged();
 };
 
-/**
- * Translates this point by the given vector.
- * 
- * @param {number} dx X-coordinate of the translation.
- * @param {number} dy Y-coordinate of the translation.
- */
 DrawioFile.prototype.compress = function()
 {
 	this.updateFileData(true);
