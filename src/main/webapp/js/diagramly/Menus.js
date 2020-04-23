@@ -293,7 +293,8 @@
 		
 		editorUi.actions.put('exportPdf', new Action(mxResources.get('formatPdf') + '...', function()
 		{
-			if (!EditorUi.isElectronApp && (editorUi.isOffline() || editorUi.printPdfExport))
+			if ((typeof(mxIsElectron) === 'undefined' || !mxIsElectron) &&
+				(editorUi.isOffline() || editorUi.printPdfExport))
 			{
 				// Export PDF action for chrome OS (same as print with different dialog title)
 				editorUi.showDialog(new PrintDialog(editorUi, mxResources.get('formatPdf')).container, 360,
@@ -3216,7 +3217,7 @@
 		{
 			this.addMenuItems(menu, ['undo', 'redo', '-', 'cut', 'copy']);
 			
-			if (EditorUi.isElectronApp)
+			if (mxIsElectron)
 			{
 				this.addMenuItems(menu, ['copyAsImage']);
 			}

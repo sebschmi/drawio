@@ -413,7 +413,7 @@ function OneDriveEditor(onSubmit, getFileInfoFn, idSuffix, notStandalone, drawio
 		autoSizeChanged(this.checked);
 	});
 	
-	var signOut = AC.$('#signout' + idSuffix);
+	var signOut = GAC.$('#signout' + idSuffix);
 	
 	if (signOut)
 	{
